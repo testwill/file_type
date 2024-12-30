@@ -26,7 +26,7 @@ func main() {
 	var (
 		fName string
 	)
-	flag.StringVar(&fName, "file", "", "文件名")
+	flag.StringVar(&fName, "file", "", "file name")
 	flag.Parse()
 	fmt.Println(fName)
 	// Register the new matcher and its type
