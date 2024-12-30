@@ -1,0 +1,1 @@
+golang实现对clamav的文件类型检查
